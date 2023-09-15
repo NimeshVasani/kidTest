@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1033776963943",
+    "project_id": "kidtest-b6a0c",
+    "storage_bucket": "kidtest-b6a0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033776963943:android:c81a070735380558fa8fc2",
+        "android_client_info": {
+          "package_name": "com.example.kidtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033776963943-d7sc9lofon7h8qb0gag4uln3993lccru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT7OFqsseVUXxTt949chW7yi4cgzzI6so"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033776963943-d7sc9lofon7h8qb0gag4uln3993lccru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

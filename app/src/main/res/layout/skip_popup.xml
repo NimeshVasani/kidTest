@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/skip_relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:backgroundTint="#99FFFFFF"
+    android:backgroundTintMode="multiply"
+    android:padding="30dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/round_corner1"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/this_is_for_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/teal_200"
+            android:text="Watch ads and get coins"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/this_is_for_skip2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/this_is_for_skip"
+            android:layout_centerHorizontal="true"
+            android:background="@color/teal_200"
+            android:text="Use coins to skip questions"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/watch_ad_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/this_is_for_skip2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/squre_border"
+            android:backgroundTint="#99FFFFFF"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Watch Ad to to get coins"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            app:icon="@drawable/ic_baseline_videocam_24" />
+
+        <TextView
+            android:id="@+id/or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/watch_ad_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:text="Or"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/no_thanks_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/watch_ad_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/squre_border"
+            android:backgroundTint="#99FFFFFF"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="No Thanks"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+
+</RelativeLayout>
